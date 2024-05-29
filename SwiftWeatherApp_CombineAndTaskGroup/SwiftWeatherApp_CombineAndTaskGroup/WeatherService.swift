@@ -33,7 +33,7 @@ struct WeatherItemData: Codable {
 }
 
 class WeatherService {
-    static let appID = "5bacd6fa07f81fd902ba80dad57201a5"
+    static let appID = "XXXXXXX"
     private var cancellables = Set<AnyCancellable>()
     var cityWeather = PassthroughSubject<WeatherItemData?, Never>()
     var favoritesWeather = PassthroughSubject<[WeatherItemData?]?, Never>()
